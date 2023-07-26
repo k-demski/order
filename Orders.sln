@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestOrders", "RestOrders\RestOrders.csproj", "{48A4B7FC-4794-40F0-BF34-D83E016F1610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestOrdersLib", "RestOrdersLib\RestOrdersLib.csproj", "{7D596EC3-555C-4987-A245-144FAF33F5AD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D2106E9F-FA29-4E8B-9939-C6D72E41568D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersEventHandler", "OrdersEventHandler\OrdersEventHandler.csproj", "{8BF04B3A-A414-49CB-BB45-9F29198337B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestOrdersLibTests", "RestOrdersLibTests\RestOrdersLibTests.csproj", "{F891797F-2351-49BD-9ACE-8D282FF224A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersEventHandlerTests", "OrdersEventHandlerTests\OrdersEventHandlerTests.csproj", "{A0FC2B3A-8C9B-4067-BA35-D9EC68827E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{C93FE445-232B-4597-8C19-D35020753CF4}"
+	ProjectSection(SolutionItems) = preProject
+		Redis\redis-master.conf = Redis\redis-master.conf
+		Redis\sentinel.conf = Redis\sentinel.conf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A4B7FC-4794-40F0-BF34-D83E016F1610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A4B7FC-4794-40F0-BF34-D83E016F1610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A4B7FC-4794-40F0-BF34-D83E016F1610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A4B7FC-4794-40F0-BF34-D83E016F1610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D596EC3-555C-4987-A245-144FAF33F5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D596EC3-555C-4987-A245-144FAF33F5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D596EC3-555C-4987-A245-144FAF33F5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D596EC3-555C-4987-A245-144FAF33F5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2106E9F-FA29-4E8B-9939-C6D72E41568D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2106E9F-FA29-4E8B-9939-C6D72E41568D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2106E9F-FA29-4E8B-9939-C6D72E41568D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2106E9F-FA29-4E8B-9939-C6D72E41568D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF04B3A-A414-49CB-BB45-9F29198337B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF04B3A-A414-49CB-BB45-9F29198337B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF04B3A-A414-49CB-BB45-9F29198337B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF04B3A-A414-49CB-BB45-9F29198337B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F891797F-2351-49BD-9ACE-8D282FF224A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F891797F-2351-49BD-9ACE-8D282FF224A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F891797F-2351-49BD-9ACE-8D282FF224A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F891797F-2351-49BD-9ACE-8D282FF224A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FC2B3A-8C9B-4067-BA35-D9EC68827E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FC2B3A-8C9B-4067-BA35-D9EC68827E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FC2B3A-8C9B-4067-BA35-D9EC68827E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FC2B3A-8C9B-4067-BA35-D9EC68827E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8F95C9-749F-41D4-86C2-98C0B8AA9B3C}
+	EndGlobalSection
+EndGlobal

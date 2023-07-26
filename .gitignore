@@ -1,0 +1,17 @@
+/bin
+/obj
+/docker-data
+/OrdersEventHandler/bin
+/OrdersEventHandler/obj
+/OrdersEventHandlerTests/bin
+/OrdersEventHandlerTests/obj
+/RestOrders/bin
+/RestOrders/obj
+/RestOrdersLib/bin
+/RestOrdersLib/obj
+/RestOrdersLibTests/bin
+/RestOrdersLibTests/obj
+/Redis/redis-m-data
+/Redis/redis-n1-data
+/Redis/redis-n2-data
+/.vs
