@@ -6,3 +6,6 @@ An API interface for ordering and retrieving orders has been exposed. The order 
 The OrdersEventHandler application then receives the order data from the RabbitMQ queue and saves it to the MySQL database.
 
 The entire project is built on docker
+
+## order diagram
+![image info](images/diagram.png)
